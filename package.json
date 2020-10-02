@@ -1,6 +1,6 @@
 {
   "name": "@reintroducing/auto-test",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Testing auto out.",
   "main": "index.js",
   "scripts": {
