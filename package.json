@@ -1,0 +1,37 @@
+{
+  "name": "@reintroducing/auto-test",
+  "version": "0.0.0",
+  "description": "Testing auto out.",
+  "main": "index.js",
+  "scripts": {
+    "init": "auto create-labels",
+    "release": "./scripts/release.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reintroducing/auto-test.git"
+  },
+  "author": "MP",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reintroducing/auto-test/issues"
+  },
+  "homepage": "https://github.com/reintroducing/auto-test#readme",
+  "publishConfig": {
+    "registry": "http://localhost:4873"
+  },
+  "devDependencies": {
+    "auto": "9.54.0"
+  },
+  "auto": {
+    "plugins": [
+      "npm",
+      "all-contributors",
+      "first-time-contributor",
+      "jira",
+      "released",
+      "slack"
+    ],
+    "onlyPublishWithReleaseLabel": true
+  }
+}
