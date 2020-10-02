@@ -32,6 +32,7 @@
     "auto": "9.54.0"
   },
   "auto": {
+    "baseBranch": "main",
     "plugins": [
       "npm",
       "all-contributors",
