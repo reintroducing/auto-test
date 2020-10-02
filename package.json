@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "init": "auto create-labels",
-    "release": "./scripts/release.sh"
+    "release2": "./scripts/release.sh",
+    "version": "npm version `auto version` -m 'Bump version to: %s [skip ci]'",
+    "publish": "npm publish && git push --follow-tags --set-upstream origin $branch",
+    "release": "auto changelog && npm run version && npm run publish && auto release"
   },
   "repository": {
     "type": "git",
