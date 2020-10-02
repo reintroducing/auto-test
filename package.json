@@ -4,7 +4,7 @@
   "description": "Testing auto out.",
   "main": "index.js",
   "scripts": {
-    "release": "./scripts/release.sh"
+    "release": "npm-release"
   },
   "repository": {
     "type": "git",
@@ -19,46 +19,10 @@
   "publishConfig": {
     "registry": "http://localhost:4873"
   },
-  "devDependencies": {
-    "auto": "9.54.0"
-  },
   "auto": {
-    "baseBranch": "main",
-    "labels": [
-      {
-        "name": "major",
-        "changelogTitle": "💥  Breaking Changes",
-        "description": "Increment the major version when merged.",
-        "releaseType": "major"
-      },
-      {
-        "name": "minor",
-        "changelogTitle": "🚀  Features",
-        "description": "Increment the minor version when merged.",
-        "releaseType": "minor"
-      },
-      {
-        "name": "patch",
-        "changelogTitle": "🐛  Miscellaneous",
-        "description": "Increment the patch version when merged.",
-        "releaseType": "patch"
-      },
-      {
-        "name": "skip-release",
-        "description": "Preserve the current version when merged.",
-        "releaseType": "skip"
-      }
-    ],
-    "plugins": [
-      "npm",
-      [
-        "released",
-        {
-          "label": "released",
-          "message": "%TYPE was released as part of %VERSION.",
-          "prereleaseLabel": "prerelease"
-        }
-      ]
-    ]
+    "extends": "@reintroducing"
+  },
+  "devDependencies": {
+    "@reintroducing/auto-config": "0.0.1"
   }
 }
