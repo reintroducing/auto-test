@@ -21,6 +21,10 @@
     "registry": "http://localhost:4873"
   },
   "devDependencies": {
+    "@auto-it/all-contributors": "9.54.0",
+    "@auto-it/first-time-contributor": "9.54.0",
+    "@auto-it/jira": "9.54.0",
+    "@auto-it/slack": "9.54.0",
     "auto": "9.54.0"
   },
   "auto": {
