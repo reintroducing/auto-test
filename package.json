@@ -20,19 +20,12 @@
     "registry": "http://localhost:4873"
   },
   "devDependencies": {
-    "@auto-it/gh-pages": "9.54.0",
     "auto": "9.54.0"
   },
   "auto": {
     "baseBranch": "main",
     "plugins": [
       "npm",
-      [
-        "gh-pages",
-        {
-          "dir": "./docs"
-        }
-      ],
       "released"
     ]
   }
