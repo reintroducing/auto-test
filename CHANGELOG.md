@@ -1,3 +1,15 @@
+# v0.3.1 (Fri Oct 02 2020)
+
+#### 🐛 Bug Fix
+
+- Cleanup scripts [#12](https://github.com/reintroducing/auto-test/pull/12) ([@reintroducing](https://github.com/reintroducing))
+
+#### Authors: 1
+
+- Matt Przybylski ([@reintroducing](https://github.com/reintroducing))
+
+---
+
 # v0.1.0 (Fri Oct 02 2020)
 
 #### 🚀 Enhancement
