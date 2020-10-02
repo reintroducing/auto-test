@@ -26,7 +26,13 @@
     "baseBranch": "main",
     "plugins": [
       "npm",
-      "released"
+      [
+        "released",
+        {
+          "label": "Released",
+          "message": "%TYPE was released as part of %VERSION."
+        }
+      ]
     ]
   }
 }
