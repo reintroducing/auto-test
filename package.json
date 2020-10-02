@@ -1,6 +1,6 @@
 {
   "name": "@reintroducing/auto-test",
-  "version": "0.1.1-canary.3301949.0",
+  "version": "0.1.1",
   "description": "Testing auto out.",
   "main": "index.js",
   "scripts": {
