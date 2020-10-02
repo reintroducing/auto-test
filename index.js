@@ -1,1 +1,1 @@
-console.log("release test 2");
+console.log("release test after changing package.json");
